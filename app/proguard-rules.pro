@@ -38,7 +38,7 @@
 -dontwarn org.gradle.**
 
 #ObjectBox
--keep class com.github.bkhezry.weather.model.** { *; }
+-keep class com.github.bkhezry.yanayi.model.** { *; }
 
 # Retrofit does reflection on generic parameters. InnerClasses is required to use Signature and
 # EnclosingMethod is required to use InnerClasses.
